@@ -221,3 +221,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Unform frontend and local runtime
+node_modules/
+dist/
+test-results/
+playwright-report/
+.env.*
+!.env.example
+.DS_Store
+*.tsbuildinfo
+/outputs/
